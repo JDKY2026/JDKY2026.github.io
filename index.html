@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hextris - Addictive Hexagonal Puzzle Game | Play Online</title>
-    <meta name="description" content="Play Hextris, the addictive hexagonal puzzle game. Challenge yourself with this fast-paced, colorful strategy game for free online.">
-    <meta name="keywords" content="hextris, hexagonal puzzle, online game, strategy game, free game">
-    <link rel="canonical" href="https://jdky2026.github.io">
+    <title>Monster Survivors - Epic Survival Adventure Game | Play Online</title>
+    <meta name="description" content="Play Monster Survivors, an exciting survival adventure game where you battle hordes of monsters and upgrade your character to survive as long as possible.">
+    <link rel="canonical" href="https://JDKY2026.github.io/">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -14,118 +13,142 @@
                 extend: {
                     colors: {
                         apple: {
-                            blue: '#0071e3',
-                            gray: '#f5f5f7',
-                            darkgray: '#86868b',
-                            black: '#1d1d1f'
+                            blue: '#007AFF',
+                            indigo: '#5856D6',
+                            purple: '#AF52DE',
+                            pink: '#FF2D55',
+                            red: '#FF3B30',
+                            orange: '#FF9500',
+                            yellow: '#FFCC00',
+                            green: '#34C759',
+                            teal: '#5AC8FA',
+                            gray: '#8E8E93',
+                            lightgray: '#E5E5EA',
+                            darkgray: '#1C1C1E',
                         }
                     }
                 }
             }
         }
     </script>
-    <style type="text/tailwind">
-        @layer base {
-            body {
-                @apply bg-apple-gray text-apple-black font-sans;
-            }
-            h1 {
-                @apply text-4xl md:text-5xl font-bold mb-4;
-            }
-            h2 {
-                @apply text-2xl md:text-3xl font-semibold mb-3 mt-6;
-            }
-            p {
-                @apply mb-4 text-base md:text-lg;
-            }
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
     </style>
 </head>
-<body>
-    <div class="min-h-screen flex flex-col">
-        <header class="bg-apple-blue text-white py-4">
-            <div class="container mx-auto px-4">
-                <div class="flex justify-between items-center">
-                    <h1 class="text-2xl md:text-3xl m-0">Hextris</h1>
-                    <nav>
-                        <ul class="flex space-x-4">
-                            <li><a href="#game" class="hover:underline">Play</a></li>
-                            <li><a href="#about" class="hover:underline">About</a></li>
-                            <li><a href="#how-to-play" class="hover:underline">How to Play</a></li>
-                        </ul>
-                    </nav>
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-gradient-to-r from-apple-blue to-apple-purple">
+        <div class="container mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">Monster Survivors</h1>
+                <p class="text-xl text-white opacity-90">Battle endless waves of monsters and evolve your character to survive the onslaught!</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="aspect-w-16 aspect-h-9 w-full">
+                    <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-0g.html" 
+                            class="w-full h-[550px] md:h-[600px] border-0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                 </div>
             </div>
-        </header>
+        </section>
 
-        <main class="flex-grow container mx-auto px-4 py-8">
-            <section class="text-center mb-10">
-                <h1>Hextris: The Addictive Hexagonal Puzzle Game</h1>
-                <p class="text-xl md:text-2xl max-w-3xl mx-auto">A fast-paced puzzle game with a hexagonal twist - rotate the hexagon to match colors and prevent overflow.</p>
-            </section>
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-apple-darkgray mb-6">Game Overview</h2>
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <p class="text-lg mb-4">
+                    Monster Survivors is an action-packed survival game where your goal is simple: survive as long as possible against increasingly difficult waves of monsters. Collect experience points to level up, unlock powerful abilities, and upgrade your character's stats to face the growing challenge.
+                </p>
+                <p class="text-lg">
+                    The longer you survive, the more dangerous the enemies become. Utilize strategic movement and carefully selected upgrades to maximize your survival time and climb the leaderboards!
+                </p>
+            </div>
+        </section>
 
-            <section id="game" class="mb-16">
-                <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="aspect-w-16 aspect-h-9 relative">
-                        <iframe 
-                            src="https://hextris.io/" 
-                            class="w-full h-[600px] border-0"
-                            allowfullscreen
-                            loading="lazy">
-                        </iframe>
-                    </div>
-                </div>
-            </section>
-
-            <section id="about" class="mb-16 max-w-4xl mx-auto">
-                <h2>About Hextris</h2>
-                <p>Hextris is an innovative puzzle game that brings a fresh perspective to the classic block-stacking genre. Instead of traditional grid-based gameplay, Hextris challenges players with a hexagonal playing field where colorful blocks rotate around a central core.</p>
-                <p>Originally developed as an open-source project, Hextris quickly gained popularity for its simple yet addictive gameplay mechanics, beautiful minimalist design, and increasing difficulty that keeps players coming back for more.</p>
-                
-                <h2>Game Features</h2>
-                <ul class="list-disc pl-8 mb-6 space-y-2">
-                    <li>Unique hexagonal gameplay mechanics</li>
-                    <li>Colorful, minimalist design aesthetic</li>
-                    <li>Progressive difficulty that tests your reflexes</li>
-                    <li>Score tracking system to compete with friends</li>
-                    <li>Optimized for both desktop and mobile play</li>
-                </ul>
-            </section>
-
-            <section id="how-to-play" class="max-w-4xl mx-auto">
-                <h2>How to Play Hextris</h2>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <p><strong>Controls:</strong></p>
-                    <ul class="list-disc pl-8 mb-6 space-y-2">
-                        <li>Left/Right Arrow Keys or A/D: Rotate the hexagon</li>
-                        <li>Down Arrow or S: Speed up block descent</li>
-                        <li>On mobile: Tap left or right side of the screen to rotate</li>
-                    </ul>
-                    <p><strong>Objective:</strong></p>
-                    <p>Match three or more blocks of the same color to clear them. Prevent blocks from reaching the outer edge of the playing field. The game gets progressively faster and more challenging as your score increases.</p>
-                    <p><strong>Strategy Tips:</strong></p>
-                    <ul class="list-disc pl-8 space-y-2">
-                        <li>Focus on creating color combos to clear multiple blocks at once</li>
-                        <li>Watch all sides of the hexagon - danger can come from any direction</li>
-                        <li>Plan your moves in advance when possible</li>
-                        <li>As the game speeds up, prioritize preventing overflow over making perfect matches</li>
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-apple-darkgray mb-6">How to Play</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-apple-blue mb-3">Controls</h3>
+                    <ul class="list-disc list-inside space-y-2">
+                        <li>Use <strong>WASD</strong> or <strong>arrow keys</strong> to move your character</li>
+                        <li>Attacks happen automatically when enemies are in range</li>
+                        <li>Press <strong>Space</strong> to use special abilities (when available)</li>
+                        <li>Press <strong>ESC</strong> to pause the game</li>
                     </ul>
                 </div>
-            </section>
-        </main>
-
-        <footer class="bg-apple-black text-white py-6">
-            <div class="container mx-auto px-4">
-                <div class="flex flex-col md:flex-row justify-between items-center">
-                    <div class="mb-4 md:mb-0">
-                        <p class="text-sm">© 2024 Hextris. All rights reserved.</p>
-                    </div>
-                    <div>
-                        <p class="text-sm">Hosted on <a href="https://jdky2026.github.io" class="text-apple-blue hover:underline">JDKY2026.github.io</a></p>
-                    </div>
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-apple-green mb-3">Tips for Success</h3>
+                    <ul class="list-disc list-inside space-y-2">
+                        <li>Keep moving to avoid being surrounded</li>
+                        <li>Prioritize upgrades that complement your playstyle</li>
+                        <li>Collect experience gems quickly before they disappear</li>
+                        <li>Focus on area-of-effect abilities when facing large groups</li>
+                        <li>Health regeneration upgrades are crucial for long-term survival</li>
+                    </ul>
                 </div>
             </div>
-        </footer>
-    </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-apple-darkgray mb-6">Game Features</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="text-apple-red text-4xl mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-12 w-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Endless Action</h3>
+                    <p>Face waves of increasingly difficult monsters with no end in sight. How long can you survive?</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="text-apple-green text-4xl mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-12 w-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Character Progression</h3>
+                    <p>Level up and choose from various upgrades and abilities to create your unique build.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="text-apple-blue text-4xl mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-12 w-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Dynamic Difficulty</h3>
+                    <p>Experience a balanced challenge that scales with your skill and character power level.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-3xl font-bold text-apple-darkgray mb-6">About Monster Survivors</h2>
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <p class="text-lg mb-4">
+                    Monster Survivors draws inspiration from popular roguelike and bullet-hell games, offering an accessible yet challenging experience for players of all skill levels. With its simple controls and deep progression system, the game strikes a perfect balance between casual fun and strategic depth.
+                </p>
+                <p class="text-lg mb-4">
+                    Each run is unique, with random enemy spawns and upgrade options creating endless possibilities. Whether you have five minutes or an hour to spare, Monster Survivors provides an engaging gaming experience that's hard to put down.
+                </p>
+                <p class="text-lg">
+                    Play now directly in your browser - no downloads or installations required. Can you become the ultimate survivor?
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-darkgray text-white mt-12">
+        <div class="container mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <p class="text-center">&copy; 2023 Monster Survivors. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
-</html> 
+</html>
